@@ -1,9 +1,9 @@
-import FormComponent from './FormComponent'
+import { LoginForm } from './components';
 
 function App() {
   return (
     <div className="App">
-      <FormComponent />
+      <LoginForm />
     </div>
   );
 }
