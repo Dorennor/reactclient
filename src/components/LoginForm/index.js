@@ -8,7 +8,7 @@ function LoginForm() {
 
   const handleSubmit = () => {
     axios
-      .post('/user', {
+      .post('api/v1/auth', {
         email,
         password,
       })
